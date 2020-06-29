@@ -15,6 +15,8 @@
     </head>
     <body>
         
+        <div data-aos="fade-bottom" data-aos-easing="ease-in-sine"
+        data-aos-duration="1500" data-aos-delay="200"> 
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-light">
                 <a class="navbar-brand h1" href="#home"> Kushal </a>
@@ -35,7 +37,7 @@
                                     About
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#"> About Me </a>
+                                    <a class="dropdown-item" href="#aboutme"> About Me </a>
                                     <a class="dropdown-item" href="#"> Skills </a>
                                     <a class="dropdown-item" href="#"> Projects </a>
                                 </div>
@@ -48,21 +50,53 @@
                 </div>
             </nav> 
 
-            <div class="container" id="home">
-                <div class="row home main-bg home-bg">
-                
-                    <div class="col-12 offset-sm-4 offset-3" data-aos="fade-right" 
-                        data-aos-easing="ease-in-sine"
-                        data-aos-duration="1500"
-                        class="row home home-heading">
-                        <h1><strong> Welcome! </strong></h1>
+            <div class="main-bg home-bg">
+            
+                <div data-aos="fade-right" 
+                    data-aos-easing="ease-in-sine"
+                    data-aos-duration="1500"
+                    data-aos-delay="300"
+                    class="home-heading">
+                    <h1><strong> Welcome! </strong></h1>
+                </div>
+                <div id="anim" class="mb-2 mr-10">
+                    <span class="fas fa-code fa-3x"></span>
+                </div>
+            </div>
+
+            <div class="container" id="aboutme">
+                <div data-aos="fade-left" data-aos-duration="2000" class="row">
+                    <div class="col-12">
+                        <h3 class="text-center mb-3 mt-5" style="font-size: 10vh;"> About Me </h3>
+                        <hr />
                     </div>
-                    <div id="anim" class="col-12 offset-sm-6 offset-4">
-                        <span class="fas fa-code fa-2x"></span>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 about-me-content">
+                        <p> I am Kushal, and I am a Mechanical Enginnering student at <u>The National Institute of Engineering, Mysuru</u> </p>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-down" data-aos-duration="2100" class="row row-content">
+                    <div class="col-12 col-md-6 ml-auto">
+                        <div class="card about-info m-1 mb-2">
+                            <div class="card-body">
+                                <dl class="row p-1">
+                                    <dt class="col-6"> Name: </dt>
+                                    <dd class="col-6"> Kushal Shekhar Pradhan </dd>
+                                    <dt class="col-6"> Age: </dt>
+                                    <dd class="col-6"> 19 </dd>
+                                    <dt class="col-6"> Location: </dt>
+                                    <dd class="col-6"> Namma Bengaluru ❤️ </dd>
+                                </dl>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+       </div>
        </div>
 
          <!-- jQuery first, then Popper.js, then Bootstrap JS. -->

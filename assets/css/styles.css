@@ -9,14 +9,21 @@
 }
 
 .home-bg {
-    background-image: url('../images/road.jpg');
+    background-image: url('../images/Gerald-G-Girl-Driving-Car-Cartoon-1.svg');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 450px;
-    height: 100%;
+    background-size: contain;
+    background-position: top;
+    height: 500px;
+    margin-top: 50px;
     z-index: -5;
 
+}
+
+@media (max-width: 768px) {
+    .home-bg {
+        background-size: cover;
+        height: 100vw;
+    }
 }
 
 .main-bg {
@@ -40,11 +47,14 @@
 }
 
 .home-heading {
-    font-size: 3em;
-    margin: 15px;
-    text-align: center;
+    font-size: 10em;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    
     z-index: 3;
-    min-height: 450px;
+    color: black;
+    text-shadow: blue;
 }
 
 .home-heading > h1 {
@@ -99,6 +109,7 @@
 .about-me-content {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
+    padding: 10px;
 }
 
 .skill-content {
