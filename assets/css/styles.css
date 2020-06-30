@@ -8,6 +8,12 @@ html {
 
 body {
     position: relative;
+   
+}
+
+.dropdown:hover .dropdown-menu, .btn-group:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
 }
 
 .navbar {
@@ -25,6 +31,8 @@ body {
     justify-content: center;
 }
 
+
+
 .home-bg {
     background-image: url('../images/Gerald-G-Girl-Driving-Car-Cartoon-1.svg');
     background-repeat: no-repeat;
@@ -39,6 +47,12 @@ body {
     .home-bg {
         background-size: cover;
         height: 100vw;
+    }
+}
+
+@media (min-width: 900px) {
+    .content {
+        margin-left: 150px;
     }
 }
 
@@ -104,11 +118,11 @@ body {
     }
 }
 
-.contact-links-header {
+.contact-links-header, #skill {
     min-height: 150px;
 }
 
-.contact-links-header > h2 {
+.contact-links-header, #skill > h2 {
     font-family: 'Amatic SC', cursive;
     font-size: 2.5em;
     text-align: center;
@@ -231,3 +245,27 @@ body {
     transform: scale(1.3);
     color: #f1f1f1;
 }
+
+#skill {
+    background-image: url(../images/html.svg);
+    background-position: right;
+    z-index: -2;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+@media (max-width: 768px) {
+    #skill {
+        background-size: 125px;
+        text-align: left;
+        
+        margin-right: 5px;
+    }
+
+    #skill > h2 {
+        text-align: left;
+    }
+}
+
