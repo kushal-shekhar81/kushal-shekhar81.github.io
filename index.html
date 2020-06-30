@@ -12,22 +12,24 @@
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="https://kit.fontawesome.com/c4798332fe.js" crossorigin="anonymous"></script>
     <title> My Portfolio </title>
+    
+    
     </head>
     <body>
         
         <div data-aos="fade-bottom" data-aos-easing="ease-in-sine"
         data-aos-duration="1500" data-aos-delay="200"> 
         <div class="container">
-            <nav class="navbar navbar-expand-md navbar-light bg-light">
-                <a class="navbar-brand h1" href="#home"> Kushal </a>
+            <nav class="navbar navbar-expand-md sticky-top navbar-light bg-light" id="navbar">
+                <a class="navbar-brand h1" href="#"> Kushal </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navContent">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#home"> Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"> Home </a>
                         </li>
             
                         <li class="nav-item dropdown">
@@ -38,64 +40,186 @@
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="#aboutme"> About Me </a>
-                                    <a class="dropdown-item" href="#"> Skills </a>
-                                    <a class="dropdown-item" href="#"> Projects </a>
+                                    <a class="dropdown-item" href="#skills"> Skills </a>
+                                    <a class="dropdown-item" href="#projects"> Projects </a>
                                 </div>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link"> Contact </a>
+                            <a class="nav-link" href="#contact"> Contact </a>
                         </li>
                     </ul>
                 </div>
             </nav> 
-
-            <div class="main-bg home-bg">
-            
-                <div data-aos="fade-right" 
-                    data-aos-easing="ease-in-sine"
-                    data-aos-duration="1500"
-                    data-aos-delay="300"
-                    class="home-heading">
-                    <h1><strong> Welcome! </strong></h1>
-                </div>
-                <div id="anim" class="mb-2 mr-10">
-                    <span class="fas fa-code fa-3x"></span>
-                </div>
-            </div>
-
-            <div class="container" id="aboutme">
-                <div data-aos="fade-left" data-aos-duration="2000" class="row">
-                    <div class="col-12">
-                        <h3 class="text-center mb-3 mt-5" style="font-size: 10vh;"> About Me </h3>
-                        <hr />
+        
+                <div class="main-bg home-bg content" id="home">
+                
+                    <div data-aos="fade-right" 
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1500"
+                        data-aos-delay="300"
+                        class="home-heading">
+                        <h1><strong> Welcome! </strong></h1>
+                    </div>
+                    <div id="anim" class="mb-2 mr-10">
+                        <span class="fas fa-code fa-3x"></span>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-12 about-me-content">
-                        <p> I am Kushal, and I am a Mechanical Enginnering student at <u>The National Institute of Engineering, Mysuru</u> </p>
-                        <p></p>
+                <div class="container" id="aboutme">
+                    <div data-aos="fade-down" data-aos-duration="2000" data-aos-delay="500" class="row">
+                        <div class="col-12">
+                            <h3 class="text-center mb-3 mt-5" style="font-size: 10vh;"> About Me </h3>
+                            <hr />
+                        </div>
                     </div>
-                </div>
 
-                <div data-aos="fade-down" data-aos-duration="2100" class="row row-content">
-                    <div class="col-12 col-md-6 ml-auto">
-                        <div class="card about-info m-1 mb-2">
-                            <div class="card-body">
-                                <dl class="row p-1">
-                                    <dt class="col-6"> Name: </dt>
-                                    <dd class="col-6"> Kushal Shekhar Pradhan </dd>
-                                    <dt class="col-6"> Age: </dt>
-                                    <dd class="col-6"> 19 </dd>
-                                    <dt class="col-6"> Location: </dt>
-                                    <dd class="col-6"> Namma Bengaluru ❤️ </dd>
-                                </dl>
+                    <div data-aos="fade-zoom-in" data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease-in-back" data-aos-delay="1000" class="row">
+                        <div class="col-12 about-me-content">
+                            <p> I am Kushal, and I am a Mechanical Enginnering student at <u>The National Institute of Engineering, Mysuru</u> </p>
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-down" data-aos-duration="2100" data-aos-delay="1500" class="row row-content">
+                        <div class="col-12 col-md-6 ml-auto">
+                            <div class="card about-info m-1 mb-2">
+                                <div class="card-body">
+                                    <dl class="row p-1">
+                                        <dt class="col-6"> Name: </dt>
+                                        <dd class="col-6"> Kushal Shekhar Pradhan </dd>
+                                        <dt class="col-6"> Age: </dt>
+                                        <dd class="col-6"> 19 </dd>
+                                        <dt class="col-6"> Location: </dt>
+                                        <dd class="col-6"> Namma Bengaluru ❤️ </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="2000" class="col-12 col-md-5">
+                            <div class="card card-format">
+                                <div class="card-header bg-info">
+                                    My Interests
+                                </div>
+                                <div class="card-body">
+                                    <dl>
+                                        <dd class="col-12"> Mechanical design </dd>
+                                        <dd class="col-12"> Front-End Web Development </dd>
+                                        <dd class="col-12"> Entrepreneurship </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="2000" class="col-12 col-md-5">
+                            <div class="card card-format">
+                                <div class="card-header bg-warning">
+                                    My Hobbies
+                                </div>
+                                <div class="card-body">
+                                    <dl>
+                                        <dd class="col-12"> Play basketball </dd>
+                                        <dd class="col-12"> Extensively listen to music </dd>
+                                        <dd class="col-12"> Travel a lot </dd>
+                                    </dl>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+
+                <div class="container" id="contact">
+                    <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000" class="row">
+                        <div class="col-12">
+                            <h3 class="text-center mb-3 mt-5" style="font-size: 10vh;"> Contact Me </h3>
+                            <hr />
+                        </div>
+                    </div>
+
+                    <div class="row contact justify-center">
+                        <div class="col-12 contact-links-header">
+                            <h2> Let us collaborate! </h2>
+                            <hr />
+                        </div>
+                        <div class="col-12 mb-5" id="contact-me">
+                            <p> You can contact me anytime regarding any matter; Be it <br />
+                            <ul>
+                                <li> Mechanical related stuff </li>
+                                <li> Electronics related stuff </li>
+                                <li> Computer related stuff </li>
+                            </ul>
+                            </p>
+                        </div>
+                    
+                    </div>
+
+                    <div class="row">
+                    
+                        <div data-aos="fade-right" data-aos-duration="2500" data-aos-delay="1000" data-aos-easing="ease" class="col-12 col-sm-4">
+                            <div class="card contact-card">
+                                <div class="card-body">
+                                    <h3 class="card-title"> There on Instagram? </h3>
+                                    <p class="card-text">
+                                        Catch me up on Instagram!
+                                    </p>
+                                    <a class="btn btn-block btn-primary links" href="https://www.instagram.com/kushal_shekhar/">
+                                        <span class="fab fa-instagram"></span> Follow
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-zoom-in" data-aos-duration="3000" data-aos-delay="1000" data-aos-easing="ease" class="col-12 col-sm-4">
+                            <div class="card contact-card">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Twitter? </h3>
+                                    <p class="card-text">
+                                        Catch me up on Twitter!
+                                    </p>
+                                    <a class="btn btn-block btn-primary links" href="https://twitter.com/kushal_shekhar" target="_blank">
+                                        <span class="fab fa-twitter"></span> Follow
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div data-aos="fade-left" data-aos-duration="2500" data-aos-delay="1000" data-aos-easing="ease" class="col-12 col-sm-4">
+                            <div class="card contact-card">
+                                <div class="card-body">
+                                    <h3 class="card-title"> Mail </h3>
+                                    <p class="card-text">
+                                        You can drop a mail! <br />
+                                        And I will get back asap
+                                    </p>
+                                    <a class="btn btn-block btn-primary links" href="mailto:kushal.shekhar@gmail.com" target="_blank">
+                                        <span class="fas fa-envelope"></span> Mail
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-5 mb-5">
+                        <div class="col-12 offset-1 col-sm-4 offset-sm-4">
+                            <a class="btn btn-lg btn-primary button" href="https://www.instagram.com/kushal_shekhar/" target="_blank">
+                                <span class="fab fa-instagram fa-lg"></span>
+                            </a>
+                            <a class="btn btn-lg btn-primary button" href="https://twitter.com/kushal_shekhar" target="_blank">
+                                <span class="fab fa-twitter fa-lg"></span>
+                            </a>
+                            <a class="btn btn-lg btn-primary button" href="https://github.com/kushal-shekhar81" target="_blank">
+                                <span class="fab fa-github fa-lg"></span>
+                            </a>
+                            <a class="btn btn-lg btn-primary button" href="mailto:kushal.shekhar@gmail.com" target="_blank">
+                                <span class="fas fa-envelope fa-lg"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
        </div>
        </div>
 
@@ -108,5 +232,21 @@
         <script>
             AOS.init();
         </script>
+
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+            
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                } else {
+                    navbar.classList.remove("sticky");
+                }
+            }
+        </script>
+        
     </body>
 </html>
