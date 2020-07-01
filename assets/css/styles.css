@@ -249,7 +249,7 @@ body {
 #skill {
     background-image: url(../images/html.svg);
     background-position: right;
-    z-index: -2;
+    z-index: -5;
     text-align: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -258,7 +258,7 @@ body {
 
 @media (max-width: 768px) {
     #skill {
-        background-size: 125px;
+        background-size: 120px;
         text-align: left;
         
         margin-right: 5px;
