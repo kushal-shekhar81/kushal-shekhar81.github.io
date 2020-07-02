@@ -269,3 +269,61 @@ body {
     }
 }
 
+.code-link {
+    padding: 10px;
+    margin: 5px;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+
+.code-link #text {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.code-link #symbol {
+    opacity: 0;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+    transition: 0.5s;
+}
+
+.code-link:hover #text {
+    padding-left: 20px;
+}
+
+.code-link:hover #symbol {
+    opacity: 1;
+}
+
+.website-link {
+    padding: 10px;
+    transition: all 0.5s;
+    margin: 5px;
+    font-size: 17px;
+}
+
+.website-link span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.website-link span::after {
+    content: '\00bb';
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    transition: 0.5s;
+}
+
+.website-link:hover span{
+    padding-right: 20px;
+}
+
+.website-link:hover span::after{
+    opacity: 1;
+}
