@@ -272,7 +272,7 @@ body {
 .code-link {
     padding: 10px;
     margin: 5px;
-    font-size: 17px;
+    font-size: 16px;
     transition: all 0.5s;
 }
 
@@ -286,7 +286,7 @@ body {
     opacity: 0;
     position: absolute;
     top: 20px;
-    left: 55px;
+    left: 35px;
     transition: 0.5s;
 }
 
@@ -299,10 +299,10 @@ body {
 }
 
 .website-link {
-    padding: 10px;
+    padding: 5px;
     transition: all 0.5s;
-    margin: 5px;
-    font-size: 17px;
+    margin: 0px;
+    font-size: 16px;
 }
 
 .website-link span {
@@ -315,7 +315,7 @@ body {
     content: '\00bb';
     opacity: 0;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 5px;
     transition: 0.5s;
 }
@@ -326,4 +326,8 @@ body {
 
 .website-link:hover span::after{
     opacity: 1;
+}
+
+.projects {
+    box-shadow: 5px 5px 5px -2px gray, -5px 10px 5px -2px gray;
 }
