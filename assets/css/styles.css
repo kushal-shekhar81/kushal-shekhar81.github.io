@@ -215,6 +215,10 @@ body {
         list-style: lower-greek;
         
     }
+
+    .projects {
+        margin: 10px;
+    }
 }
 
 .footer {
@@ -301,8 +305,14 @@ body {
 .website-link {
     padding: 5px;
     transition: all 0.5s;
-    margin: 0px;
+    margin-top: 0px;
     font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .website-link {
+        margin-top: 10px;
+    }
 }
 
 .website-link span {
