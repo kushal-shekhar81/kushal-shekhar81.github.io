@@ -183,6 +183,14 @@ body {
     text-align: center;
 }
 
+.card-img-bottom {
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
 #contact-me {
     background-image: url(../images/plane.svg);
     background-size: contain;
