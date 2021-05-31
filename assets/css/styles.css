@@ -183,12 +183,26 @@ body {
     text-align: center;
 }
 
-.card-img-bottom {
-    height: 200px;
-    width: 200px;
+.single {
+    height: 150px;
+    width: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+}
+
+.first {
+    height: 140px;
+    width: 220px;
+}
+
+@media (max-width: 768px) {
+    .first {
+        height: 100px;
+        width: 180px;
+        margin-left: auto;
+        
+    }
 }
 
 #contact-me {
@@ -273,7 +287,7 @@ body {
         background-size: 120px;
         text-align: left;
         
-        margin-right: 5px;
+        margin-right: auto;
     }
 
     #skill > h2 {
@@ -352,4 +366,46 @@ body {
 
 .skills {
     box-shadow: 5px 5px 5px -2px gray, -5px 10px 5px -2px gray;
+    width: 45em; 
+    align-items: center; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.skills-1 {
+    width: 48em;
+}
+
+.render {
+    height: 480px;
+    width: 680px;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .skills {
+        width: 25em; 
+    }
+
+    .skills-1 {
+        width: 28em;
+    }
+    
+    .render {
+        height: 240px;
+        width: 340px;
+        margin-left: 50px;
+    }
+}
+
+iframe {
+    width: 540px;
+    height: 480px;
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 440px;
+        height: 380px;
+    }
 }
