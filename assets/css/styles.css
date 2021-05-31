@@ -200,8 +200,7 @@ body {
     .first {
         height: 100px;
         width: 180px;
-        margin-left: auto;
-        
+
     }
 }
 
@@ -384,17 +383,17 @@ body {
 
 @media (max-width: 768px) {
     .skills {
-        width: 25em; 
+        width: 20em; 
     }
 
     .skills-1 {
-        width: 28em;
+        width: 22em;
     }
     
     .render {
         height: 240px;
         width: 340px;
-        margin-left: 50px;
+        
     }
 }
 
@@ -405,7 +404,8 @@ iframe {
 
 @media (max-width: 768px) {
     iframe {
-        width: 440px;
-        height: 380px;
+        width: 340px;
+        height: 320px;
+        margin-left: 0;
     }
 }
